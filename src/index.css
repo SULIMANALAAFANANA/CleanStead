@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Avenir Arabic' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: -1px;
+
+  }
+
+:root{
+  margin-bottom: 0px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container, .container-sm {
+  margin-bottom: -1px;
+}
+

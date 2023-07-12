@@ -1,0 +1,94 @@
+.call-us {
+  order: 4;
+}
+.who-us {
+  order: 3;
+}
+.services {
+  order: 2;
+}
+.home {
+  order: 1;
+}
+
+.navbar {
+  background: #fff;
+  margin: 0;
+  margin-top: 5px;
+  font-weight: 25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+.navbar .collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar .mr-auto {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .mr-auto .btn {
+  margin-left: 0;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: #00ADEE;
+}
+
+.navbar .nav-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar .logo {
+  margin-left: auto;
+}
+
+.navbar  .logo span  {
+  color: #00adee;
+}
+
+
+.navbar img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767.98px) {
+  .navbar .collapse {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .logo {
+    margin-left: 10px;
+    margin-top: 0;
+    order: 1;
+  }
+
+  .navbar .book-now {
+    order: 3;
+  }
+
+  .navbar .nav-contents {
+    order: 2;
+  }
+
+  .navbar .mr-auto .btn {
+    margin-top: 10px;
+    margin-right: 0;
+    order: 3;
+  }
+}
+
+
+
+
